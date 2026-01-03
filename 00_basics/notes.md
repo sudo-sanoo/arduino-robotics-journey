@@ -24,3 +24,5 @@ Pin used: LED_BUILTIN → Digital Pin 13 (Uno)
 - Delay timing in milliseconds
 - Serial Monitor basics
 - Infinite loop using `while(1)` to stop execution
+
+#### Refer to `blink.md` for detailed explanation of concepts
