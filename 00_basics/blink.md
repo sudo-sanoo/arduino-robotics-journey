@@ -63,7 +63,8 @@ void loop() {
 2. 
     ### RX LED (built-in) blinks when Serial Monitor prints.  
     Why?  
-    Because data is being transmitted over the USB serial connection, and the RX LED shows receive activity.
+    Because data is being transmitted over the USB serial connection, and the RX LED shows receive activity.  
+    
     More precisely:
     - Arduino Uno has two LEDs for serial communication
         - TX = "Transmit" (Arduino -> Computer)
@@ -73,7 +74,8 @@ void loop() {
     ```cpp
     Serial.print(...)
     ```
-    Arduino is sending bytes to my computer through the USB serial interface, electrically it is UART (Universal Asynchronous Receiver/Transmitter) data transmission.
+    Arduino is sending bytes to my computer through the USB serial interface, electrically it is UART (Universal Asynchronous Receiver/Transmitter) data transmission.  
+    
     On an Arduino Uno:
     - The main ATmega328 chip does not directly talk USB.
     - A secondary USB-to-Serial chip (ATmega16U2 or CH340 on clones) handles communication.
