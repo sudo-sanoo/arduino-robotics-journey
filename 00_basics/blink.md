@@ -43,7 +43,7 @@ void loop() {
 ```
 
 ## What I noticed:
-1. void loop() is a function that is being executed repeatedly when a sketch is uploaded to the Arduino Uno R3.
+1. void loop() is a function that is being executed repeatedly when a sketch is uploaded to the Arduino Uno R3.  
 How the Arduino microcontroller executes code internally (simplified):
 ```cpp
 int main(){
@@ -58,13 +58,15 @@ This means:
 - Even if I have a `return;` statement inside `loop()`, loop() will be called again, nothing stops.
 - So to stop/halt the next `loop()`, simply place my own infinite loop. 
 
+
 2. RX LED (built-in) blinks when Serial Monitor prints.
 Why?
 Because data is being transmitted over the USB serial connection, and the RX LED shows receive activity.
 More precisely:
 - Arduino Uno has two LEDs for serial communication
     - TX = "Transmit" (Arduino -> Computer)
-    - RX = "Receive" (Computer -> Arduino)
+    - RX = "Receive" (Computer -> Arduino)  
+    
 When I do:
 ```cpp
 Serial.print(...)
