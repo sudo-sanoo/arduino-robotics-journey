@@ -73,7 +73,7 @@ void loop() {
     ```cpp
     Serial.print(...)
     ```
-    Arduino is sending bytes to my computer through the USB serial interface, electrically it is UART data transmission.
+    Arduino is sending bytes to my computer through the USB serial interface, electrically it is UART (Universal Asynchronous Receiver/Transmitter) data transmission.
     On an Arduino Uno:
     - The main ATmega328 chip does not directly talk USB.
     - A secondary USB-to-Serial chip (ATmega16U2 or CH340 on clones) handles communication.
