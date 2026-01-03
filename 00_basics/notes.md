@@ -1,4 +1,4 @@
-# Blink (blink.ino)
+# A. Blink (blink.ino)
 Blink LED with Delay + Serial Output
 
 ## 1. Objective
@@ -26,3 +26,5 @@ Pin used: LED_BUILTIN → Digital Pin 13 (Uno)
 - Infinite loop using `while(1)` to stop execution
 
 #### Refer to `blink.md` for detailed explanation of concepts
+
+---
