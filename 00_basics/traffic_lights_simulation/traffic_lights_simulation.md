@@ -66,4 +66,4 @@ void loop() {
 ```
 
 ## 5. Project Result
-![Result](traffic_lights_simulation.mp4)
+[![Result](traffic_lights_simulation_thumbnail.jpg)](https://www.instagram.com/p/DUJCgxBk9vpU2rsDoctt5GU2pdb_TIubm0t6H80/)
