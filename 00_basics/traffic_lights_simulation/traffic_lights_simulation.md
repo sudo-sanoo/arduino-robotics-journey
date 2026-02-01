@@ -35,7 +35,7 @@ To replicate this circuit, connect the components as follows:
 | Green LED (+) | Pin 7 | $220\Omega$ | Red |
 | All LEDs (-) | GND | N/A | Black |
 
-![Circuit Diagram](traffic_lights_simulation.png)
+![Circuit Diagram](images/traffic_lights_simulation.png)
 
 ## 4. Code
 ```cpp
@@ -66,4 +66,4 @@ void loop() {
 ```
 
 ## 5. Project Result
-[![Result](traffic_lights_simulation_thumbnail.jpg)](https://www.instagram.com/p/DUJCgxBk9vpU2rsDoctt5GU2pdb_TIubm0t6H80/)
+[![Result](images/traffic_lights_simulation_thumbnail.jpg)](https://www.instagram.com/p/DUJCgxBk9vpU2rsDoctt5GU2pdb_TIubm0t6H80/)
